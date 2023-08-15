@@ -17,7 +17,7 @@ The original data was not balanced, We have 2,500 '0' (healthy loan) vs 75,036 '
 
 * Machine Learning Model 1 (Without Resampling):
 
-Balanced Accuracy Score: 0.9924
+** Balanced Accuracy Score: 0.9924
 Precision: '1' (high-risk loan) - 0.87 | '0' (healthy loan) - 1.00
 Recall: '1' (high-risk loan) -  0.89 | '0' (healthy loan) - 1.00
 
