@@ -17,17 +17,17 @@ The original data was not balanced, We have 2,500 '0' (healthy loan) vs 75,036 '
 
 * Machine Learning Model 1 (Without Resampling):
 
-** Balanced Accuracy Score: 0.9924
-Precision: '1' (high-risk loan) - 0.87 | '0' (healthy loan) - 1.00
-Recall: '1' (high-risk loan) -  0.89 | '0' (healthy loan) - 1.00
+  * Balanced Accuracy Score: 0.9924
+  * Precision: '1' (high-risk loan) - 0.87 | '0' (healthy loan) - 1.00
+  * Recall: '1' (high-risk loan) -  0.89 | '0' (healthy loan) - 1.00
 
 We got a good accuracy score of 99.24%. We can observe  a good balance between precision and recall for high-risk loans, with a precision of 0.87 and a recall of 0.89. Whle healthy loans where perfectly balanced
 
 * Machine Learning Model 2 (With RandomOverSampler):
 
-Balanced Accuracy Score: 0.9952
-Precision: '1' (high-risk loan) - 0.87 | '0' (healthy loan) - 1.00
-Recall: '1' (high-risk loan) -  1.00 | '0' (healthy loan) - 1.00
+  * Balanced Accuracy Score: 0.9952
+  * Precision: '1' (high-risk loan) - 0.87 | '0' (healthy loan) - 1.00
+  * Recall: '1' (high-risk loan) -  1.00 | '0' (healthy loan) - 1.00
 
 For this model where we used the RandomOverSampler we outperformed the previous model, with a higher accuracy score of 99.52%. We also managed to maintain a the good  precision for high-risk loans at 0.87 but the interesting thing is that here we managed to get a  recall of 1.00. Given these we can assumet that with this approach we ar able to captures almost all actual high-risk loans.
 
